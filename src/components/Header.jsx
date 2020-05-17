@@ -1,10 +1,11 @@
 import React from "react";
 
-return (
-  <h1 className="heading" style={customStyle}>
-    {" "}
-    {greeting}{" "}
-  </h1>
-);
+function Header() {
+  return (
+    <header>
+      <h1>Keeper App</h1>
+    </header>
+  );
+}
 
-export default Heading;
+export default Header;
